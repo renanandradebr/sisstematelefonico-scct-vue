@@ -37,4 +37,4 @@ Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE para o
 
 ## Autores
 
-- Seu nome (seu e-mail) - Desenvolvedor do projeto
+- Renan Andrade - Desenvolvedor do projeto
