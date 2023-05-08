@@ -23,37 +23,7 @@
       </v-container>
 
     </v-app-bar>
-    <v-navigation-drawer app v-model="drawer" color="primary">
-
-
-      <v-list>
-
-
-      </v-list>
-      <div class="loginProfile">
-        <v-list-item style="color:antiquewhite" to="/loginPage">
-          <v-list-item-icon>
-            <v-icon style="color: antiquewhite;">mdi-login</v-icon>
-          </v-list-item-icon>
-          <v-list-item-title>Login</v-list-item-title>
-        </v-list-item>
-      </div>
-      <v-list-item style="color:antiquewhite" to="/contatos">
-        <v-list-item-icon>
-          <v-icon style="color: antiquewhite;">mdi-account</v-icon>
-        </v-list-item-icon>
-        <v-list-item-title>Contatos</v-list-item-title>
-      </v-list-item>
-
-      <v-list-item style="color:antiquewhite" to="/LoginPage">
-
-        <v-list-item-icon>
-          <v-icon style="color: antiquewhite;">mdi-exit-to-app</v-icon>
-        </v-list-item-icon>
-        <v-list-item-title>Sair</v-list-item-title>
-      </v-list-item>
-
-    </v-navigation-drawer>
+    
     <v-row>
       <v-col cols="12" class="container">
         <v-main class="grey lighten-3">
@@ -83,7 +53,6 @@
 
               <v-col cols="10">
                 <v-sheet min-height="70vh" rounded="lg">
-                  <bread-crumbs />
                   <router-view />
                 </v-sheet>
               </v-col>
@@ -99,11 +68,10 @@
 
 <script>
 
-import breadCrumbs from './components/breadCrumbs.vue'
 import footerCaema from './components/footerCaema.vue'
 
 export default {
-  components: { breadCrumbs, footerCaema, },
+  components: { footerCaema, },
   name: 'App',
 
   data() {
