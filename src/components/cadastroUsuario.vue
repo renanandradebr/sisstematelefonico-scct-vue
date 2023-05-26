@@ -59,7 +59,5 @@
   };
   </script>
   <style>
-  .cardcadastro{
-    padding: 25px;
-  }
+  
   </style>
